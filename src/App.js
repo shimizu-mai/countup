@@ -1,5 +1,5 @@
 import './App.css';
-import ItemCounter from './ItemCounter';
+import ItemCounter from './componets/ItemCounter';
 
 function App() {
   return (
