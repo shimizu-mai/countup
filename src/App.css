@@ -1,0 +1,13 @@
+.counterContainer {
+    display: flex; /* Flexboxを有効化 */
+    justify-content: space-between; /* 項目とカウンターの間に均等なスペースを作る */
+    align-items: center; /* 項目とカウンターを中央揃えにする */
+    width: 100%; /* コンテナの幅を指定（必要に応じて） */
+    margin-bottom: 20px; /* 下に余白を追加 */
+}
+  .itemLabel {
+    flex-grow: 1; /* ラベルが利用可能なスペースを埋めるように伸びる */
+    flex-shrink: 1; /* 必要に応じてラベルが縮む */
+    flex-basis: 100px; /* 基本となる幅を指定 */
+    margin-right: 20px; /* ラベルとカウンターの間に余白を設ける */
+  }
